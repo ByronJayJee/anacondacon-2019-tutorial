@@ -8,6 +8,7 @@ dependencies:
   - pyarrow
   - xarray
   - dask
+  - dask-kubernetes
   - distributed
   - gcsfs
   - intake
@@ -25,7 +26,4 @@ dependencies:
   - jupyterlab=0.35
   - matplotlib
   - scikit-learn
-  - pip:
-    - kubernetes
-    - graphviz
-    - git+https://github.com/dask/dask-kubernetes.git
+  - python-graphviz
